@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "2ae4c649-68f6-4c90-baf8-d293486631a7",
+		"name": "CryptoPriceAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38735247"
+	},
+	"item": [
+		{
+			"name": "Get-crypto-price",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/price?symbol=BTC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"price"
+					],
+					"query": [
+						{
+							"key": "symbol",
+							"value": "BTC",
+							"description": "require for crypto symbol"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
